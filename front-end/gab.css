@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header {
+    background: #474646;
+    padding: 40px;
+    margin: auto;
+    background-image: linear-gradient(to right,red,grey,indigo,violet);
+}
+.header .header-content{
+    text-align: center;
+    width: 100%;
+}
+.header .header-content .logo{
+    font-size: 7em;
+    font-weight: 700;
+    text-shadow: 3px 3px 3px #ababab;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 998;
+    text-align: center;
+    transition: all 0.3s ease;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav.sticky{
+    background: transparent;
+    padding: 13px 0;
+    backdrop-filter: blur(20px);
+}
+nav .navbar{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    backdrop-filter: blur(20px);
+}
+nav .navbar .logo a{
+    font-weight: 500;
+    font-size: 35px;
+    color: linear-gradient(to right, red, grey, indigo, violet);
+    font-family: "poppins" sans-serif;
+}
+nav.sticky .navbar .logo a{
+    color: #27282b;
+}
+nav .navbar .menu{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+nav .navbar .menu li{
+    list-style: none;
+    padding: 10px;
+    margin: 0 8px;
+    background-color: #0E2431;
+    align-items: center;
+    border: 1px solid rgb(24, 23, 23);
+    box-sizing: border-box;
+    border-radius: 3px 15px;
+    transform-box: rotateX(150deg);
+    transform-box: rotateY(150deg);
+    transform-box: rotateZ(90deg);
+}
+.navbar .menu a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0E2431;
+    padding: 6px 0;
+    transition: all 0.4s ease;
+}
+.navbar .menu li a:active{
+    color: gold;
+}
+.navbar .menu a:hover{
+    color: #f2f2f2;
+}
+nav.sticky .menu a{
+    color: #FFF;
+}
+nav.sticky .menu a:hover{
+    color: #0E2431;
+}
