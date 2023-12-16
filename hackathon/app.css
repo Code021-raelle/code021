@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 1.6rem;
+  background-color: #2d2a2a;
+  align-content: center;
+}
+
+nav .navbar{
+  list-style: none;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+nav .navbar .logo {
+  background-image: url('https://crushingit.tech/hackathon-assets/shopify-icon-desktop.svg');
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  justify-content: left;
+}
+
+
+/* Home section page */
+.home .container {
+  background-color: black;
+  border-radius: 3px 15px;
+}
