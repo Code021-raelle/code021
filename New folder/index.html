@@ -6,18 +6,19 @@
     </head>
     <body>
         <script>
-        // Your JavaScript goes here!
-        console.log("Hello, World!")
-
-        let message = 'Hello';
-        alert(message);
-
-        const myBirthday = '22.12.2002';
-        alert(myBirthday);
-
-        const birthday = '22.12.2002';
-
-        const age = someCode(birthday);
+            const person1 = {
+                name: "chris",
+                introduceSelf() {
+                    console.log(`Hi! I'm ${this.name}.`);
+                },
+            };
+            
+            const person2 = {
+                name: "Deepti",
+                introduceSelf() {
+                    console.log(`Hi! I'm ${this.name}.`);
+                },
+            };
         </script>
     </body>
 </html>
